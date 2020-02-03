@@ -6,7 +6,7 @@
                 <mat-card-subtitle *ngIf="product.price; else elseBlock">{{ product.price | currency }}</mat-card-subtitle>
                 <ng-template #elseBlock><mat-card-subtitle>Call us for price</mat-card-subtitle></ng-template>
             </mat-card-header>
-            <img mat-card-image src="/assets/products/thumbnails/{{product.img}}"
+            <img mat-card-image src="/elianefrenchbakery/assets/products/thumbnails/{{product.img}}"
                 alt="Photo of {{product.name}}">
             <mat-card-content>
                 <div *ngIf="product.description">
